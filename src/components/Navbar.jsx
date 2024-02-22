@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { LiaTimesSolid } from 'react-icons/lia';
+import GradientBtn from './GradientBtn';
 
 const Navbar = () => {
 
@@ -53,7 +54,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div>
-                        <button className='capitalize'>get anton</button>
+                        <GradientBtn className='ml-4 capitalize' title='get anton' />
                     </div>
 
                     <div onClick={() => setIsMenuShown(!isMenuShown)} className='block md:hidden cursor-pointer'>
@@ -75,7 +76,7 @@ const Navbar = () => {
                             </li>
                         ))
                     }
-                    <button className='ml-4 capitalize'>get anton</button>
+                    <GradientBtn className='m-10 capitalize' title='get anton' />
                 </ul>
             </div>
         </div>
