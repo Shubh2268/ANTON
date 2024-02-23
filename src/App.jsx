@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Products from './components/Products';
 import DevAPI from './components/DevAPI';
 import Customers from './components/Customers';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Products />
       <DevAPI />
       <Customers />
+      <Contact />
     </div>
   )
 }
