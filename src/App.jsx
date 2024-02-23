@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Products from './components/Products';
 import DevAPI from './components/DevAPI';
+import Customers from './components/Customers';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Home isMenuShown={isMenuShown} />
       <Products />
       <DevAPI />
+      <Customers />
     </div>
   )
 }
