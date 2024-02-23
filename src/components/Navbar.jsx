@@ -54,7 +54,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
                     </div>
 
 
-                    <div onClick={() => setIsMenuShown(!isMenuShown)} className='block md:hidden cursor-pointer'>
+                    <div onClick={() => setIsMenuShown(!isMenuShown)} className='block lg:hidden cursor-pointer'>
                         {isMenuShown ? <LiaTimesSolid size={30} /> : <AiOutlineMenu size={30} />}
                     </div>
 
@@ -62,7 +62,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
 
             </div>
 
-            <div className={`w-full bg-black text-gray-200  fixed z-10 left-0 h-fit py-12 md:hidden flex justify-center text-center text-2xl duration-500 ${isMenuShown ? 'top-10 rounded-b-2xl opacity-95' : 'top-[-100%]'}`}>
+            <div className={`w-full bg-black text-gray-200  fixed z-10 left-0 h-fit py-12 lg:hidden flex justify-center text-center text-2xl duration-500 ${isMenuShown ? 'top-10 rounded-b-2xl opacity-95' : 'top-[-100%]'}`}>
                 <ul>
                     {
                         links.map(({ id, link }) => (

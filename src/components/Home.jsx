@@ -22,7 +22,7 @@ const Home = ({ isMenuShown }) => {
     return (
         <div name='home' className='flex items-end justify-center w-full h-screen text-center'>
 
-            <video ref={videoRef} src={bgVideo} autoPlay loop muted className='object-cover h-3/4 lg:h-full w-full absolute -z-10' />
+            <video ref={videoRef} src={bgVideo} autoPlay loop muted className='object-cover h-full w-full absolute -z-10' />
 
             <div className={`p-8 flex flex-col items-center justify-center duration-500 w-full ${isVideoPlaying ? '' : 'bg-black/80'} ${isMenuShown ? 'opacity-20' : 'opacity-100'}`}>
 
