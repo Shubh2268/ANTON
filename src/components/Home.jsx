@@ -30,8 +30,8 @@ const Home = ({ isMenuShown }) => {
                 <h1 className='text-gray-200 tracking-wide text-4xl lg:text-5xl capitalize mb-12'>the <span className='text-thBlue font-bold'>future</span> is here</h1>
 
                 <div className='flex flex-row justify-center items-center'>
-                    <GradientBtn className='font-medium text-xs lg:text-base capitalize' title='get anton' />
-                    <GradientBtn className='font-medium capitalize mx-12' title='products' />
+                    <GradientBtn className='text-xs lg:text-base capitalize' title='get anton' />
+                    <GradientBtn className='capitalize mx-12' title='products' />
 
                     {
                         isVideoPlaying ? <FaPauseCircle size={30} onClick={handleVideoPause} className='cursor-pointer hover:scale-110 ease-in duration-200 text-thBlue' />

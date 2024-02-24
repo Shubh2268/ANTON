@@ -59,19 +59,19 @@ const Footer = () => {
         },
         {
             id: 4,
-            title: 'Stuff',
+            title: 'Branch',
             subMenu: [
                 {
                     id: 1,
-                    title: 'Stuff 1'
+                    title: 'Branch 1'
                 },
                 {
                     id: 2,
-                    title: 'Stuff 2'
+                    title: 'Branch 2'
                 },
                 {
                     id: 3,
-                    title: 'Stuff 3'
+                    title: 'Branch 3'
                 }
             ]
         }

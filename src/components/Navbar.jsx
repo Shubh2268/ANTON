@@ -50,7 +50,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
                                 ))
                             }
                         </ul>
-                        <GradientBtn className='ml-4 font-medium capitalize' title='get anton' />
+                        <GradientBtn className='ml-4 capitalize' title='get anton' />
                     </div>
 
 
@@ -73,7 +73,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
                             </li>
                         ))
                     }
-                    <GradientBtn className='m-10 font-medium capitalize' title='get anton' />
+                    <GradientBtn className='m-10 capitalize' title='get anton' />
                 </ul>
             </div>
         </div>
