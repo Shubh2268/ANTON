@@ -2,6 +2,7 @@ import React from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { LiaTimesSolid } from 'react-icons/lia';
 import GradientBtn from './GradientBtn';
+import { Link } from 'react-scroll';
 
 const Navbar = ({ isMenuShown, setIsMenuShown }) => {
 
@@ -43,9 +44,9 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
                             {
                                 links.map(({ id, link }) => (
                                     <li key={id} className='p-4 uppercase font-medium duration-200 hover:text-thBlue cursor-pointer'>
-                                        <a>
+                                        <Link to={link} smooth duration={500}>
                                             {link}
-                                        </a>
+                                        </Link>
                                     </li>
                                 ))
                             }
@@ -67,9 +68,9 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
                     {
                         links.map(({ id, link }) => (
                             <li key={id} className='p-4 uppercase font-medium hover:text-thBlue cursor-pointer'>
-                                <a>
+                                <Link onClick={() => setIsMenuShown(false)} to={link} smooth duration={500}>
                                     {link}
-                                </a>
+                                </Link>
                             </li>
                         ))
                     }
