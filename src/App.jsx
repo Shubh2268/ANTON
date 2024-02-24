@@ -5,6 +5,7 @@ import Products from './components/Products';
 import DevAPI from './components/DevAPI';
 import Customers from './components/Customers';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <DevAPI />
       <Customers />
       <Contact />
+      <Footer />
     </div>
   )
 }
