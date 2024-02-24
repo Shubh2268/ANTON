@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineMenu } from 'react-icons/ai';
+import { HiMiniBars3BottomLeft } from 'react-icons/hi2';
 import { LiaTimesSolid } from 'react-icons/lia';
 import GradientBtn from './GradientBtn';
 import { Link } from 'react-scroll';
@@ -33,13 +33,13 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
         <div>
             <div className='w-full bg-black text-gray-200 fixed z-20'>
 
-                <div className='flex justify-between items-center max-w-screen-xl mx-auto h-full'>
+                <div className='flex justify-between items-center max-w-screen-xl mx-8 xl:mx-auto h-fit py-3 md:py-2'>
 
                     <div>
-                        <h1 className='text-thBlue text-3xl font-bold py-3'>ANTON</h1>
+                        <Link to='home' smooth duration={500} className='text-thBlue text-2xl md:text-3xl py-5 font-bold cursor-pointer'>ANTON</Link>
                     </div>
 
-                    <div className='hidden md:flex items-center'>
+                    <div className='hidden lg:flex items-center'>
                         <ul className='flex'>
                             {
                                 links.map(({ id, link }) => (
@@ -56,14 +56,15 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
 
 
                     <div onClick={() => setIsMenuShown(!isMenuShown)} className='block lg:hidden cursor-pointer'>
-                        {isMenuShown ? <LiaTimesSolid size={30} /> : <AiOutlineMenu size={30} />}
+                        {isMenuShown ? <LiaTimesSolid size={25} /> : <HiMiniBars3BottomLeft size={25} />}
                     </div>
 
                 </div>
 
             </div>
-
-            <div className={`w-full bg-black text-gray-200  fixed z-10 left-0 h-fit py-12 lg:hidden flex justify-center text-center text-2xl duration-500 ${isMenuShown ? 'top-10 rounded-b-2xl opacity-95' : 'top-[-100%]'}`}>
+            
+            {/* mobile view  */}
+            <div className={`w-full bg-black text-gray-200 fixed z-10 left-0 h-fit py-12 lg:hidden flex justify-center text-center text-lg duration-500 ${isMenuShown ? 'rounded-b-2xl opacity-95' : 'top-[-100%]'}`}>
                 <ul>
                     {
                         links.map(({ id, link }) => (

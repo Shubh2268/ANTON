@@ -11,4 +11,8 @@
         background: black;
         color: white;
     }
+
+    ::-webkit-scrollbar {
+        width: 0;
+    }
 }
