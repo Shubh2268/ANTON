@@ -37,11 +37,11 @@ It is a gaming feature based static website with video background and modern lay
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Beautiful Sections**: Includes home, exercise results, exercise details, and footer.
+👉 **Beautiful Sections**: Includes home, products, customers, and footer.
 
 👉 **UI Geometry**: Utilizes tailwindcss for intricate shapes like cards, grid lines, and side lines.
 
-👉 **Latest UI Trends**: Incorporates modern design elements such as smooth scrolling and horizontal scrolling.
+👉 **Latest UI Trends**: Incorporates modern design elements such as smooth scrolling and video background.
 
 👉 **Cool Gradients**: Enhances visuals with stylish gradients using Tailwind CSS for background, buttons, etc.
 
