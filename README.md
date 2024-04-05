@@ -27,6 +27,8 @@
 
 Anton Future - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless functionality, and overall user experience set a high standard, serving as a reference for future modern applications or websites in general.
 
+It is a gaming feature based static website with video background and modern layout.
+
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - Vite
