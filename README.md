@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://anton-pro.netlify.app" target="_blank">
-      <img src="https://imagetolink.com/ib/JLnh90c7lo.png" alt="Anton Banner">
+      <img src="https://imagetolink.com/ib/7cdmy4ErVY.png" alt="Anton Banner">
     </a>
   <br />
 
